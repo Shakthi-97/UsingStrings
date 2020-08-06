@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i( "Lifecycle", "OnStop() Invoked");
     }
 
-    @Override
+    @Override  
     protected void onDestroy() {
         super.onDestroy();
 
